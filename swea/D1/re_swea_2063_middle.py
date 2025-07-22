@@ -1,0 +1,5 @@
+N = int(input())
+nums = list(map(int,input().split()))
+mid= int(N/2)
+newnums = sorted(nums)
+print(newnums[mid])
