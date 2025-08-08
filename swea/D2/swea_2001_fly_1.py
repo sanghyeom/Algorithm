@@ -6,6 +6,7 @@ for Test_case in range(1,T+1):
     for _ in range(N):
         pan.append(list(map(int,input().split())))
     
+    # 부분 
     max_fly = 0 
     for x in range(N-M+1):
         for y in range(N-M+1):
