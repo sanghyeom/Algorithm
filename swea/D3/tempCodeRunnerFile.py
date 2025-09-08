@@ -1,7 +1,4 @@
-3
-5
-20 23
-17 20
-23 24
-4 14
-8 18
+            find_3num(1)
+            find_3num(2)
+            find_strate(1)
+            find_strate(1)
