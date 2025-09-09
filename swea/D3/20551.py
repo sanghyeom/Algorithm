@@ -22,6 +22,4 @@ for TC in range(1,T+1) :
             result = max(cnt,result)
             break
     
-    print(f'#{TC}'result)
-
-        
+    print(f'#{TC}',result)
