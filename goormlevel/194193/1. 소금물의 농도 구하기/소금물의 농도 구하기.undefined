@@ -1,0 +1,8 @@
+N, M = map(int, input().split())
+
+total = N + M
+value = (7 * N / total) if total else 0
+
+value = int(value * 100) / 100
+
+print(f"{value:.2f}")
