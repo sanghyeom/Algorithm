@@ -1,0 +1,15 @@
+T = int(input())
+for _ in range(T):
+	X,Y,N = map(int,input().split())
+	result = 'YES'
+	if X < 0 :
+		X = X*(-1)
+	if Y < 0 :
+		Y = Y*(-1)
+
+	if X+Y > N :
+		result = 'NO'
+	if (X+Y)%2 != N%2 :
+		result = 'NO'
+		
+	print(result)
