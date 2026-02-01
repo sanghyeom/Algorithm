@@ -1,0 +1,14 @@
+N = int(input())
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+K = int(input())
+
+bases = [a + 1 for a in A]
+
+for i in range(N - 1, -1, -1):
+    total = B[i] + K
+    B[i] = total % bases[i]
+    K = total // bases[i]
+
+print("".join(map(str, B)))
+
